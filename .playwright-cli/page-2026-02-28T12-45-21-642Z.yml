@@ -1,0 +1,56 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Gmail" [ref=e8] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Tìm kiếm hình ảnh" [ref=e10] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=vi&ogbl
+          - text: Hình ảnh
+      - button "Các ứng dụng của Google" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+      - link "Đăng nhập" [ref=e18] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e21]
+  - search [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - img [ref=e37]
+        - combobox "Tìm kiếm" [active] [ref=e40]
+        - generic [ref=e42]:
+          - button "Công cụ nhập" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+          - button "Tìm kiếm bằng giọng nói" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - button "Tìm kiếm bằng hình ảnh" [ref=e50] [cursor=pointer]:
+            - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Tìm trên Google" [ref=e55] [cursor=pointer]
+        - button "Xem trang đầu tiên tìm được" [ref=e56] [cursor=pointer]
+  - generic [ref=e59]:
+    - text: "Google hỗ trợ các ngôn ngữ:"
+    - link "English" [ref=e60] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_xB7K87J3KL9KkAkK1KBj2w0pML4%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjql6fPm_ySAxXEzDgGHQVfAKcQ2ZgBCBU
+    - link "Français" [ref=e61] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_xB7K87J3KL9KkAkK1KBj2w0pML4%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwjql6fPm_ySAxXEzDgGHQVfAKcQ2ZgBCBY
+    - link "繁體中文" [ref=e62] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_xB7K87J3KL9KkAkK1KBj2w0pML4%3D&hl=zh-TW&source=homepage&sa=X&ved=0ahUKEwjql6fPm_ySAxXEzDgGHQVfAKcQ2ZgBCBc
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]: Việt Nam
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - link "Giới thiệu" [ref=e68] [cursor=pointer]:
+          - /url: https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1
+        - link "Quảng cáo" [ref=e69] [cursor=pointer]:
+          - /url: https://www.google.com/intl/vi_vn/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Doanh nghiệp" [ref=e70] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Cách hoạt động của Tìm kiếm" [ref=e71] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=e72]:
+        - link "Quyền riêng tư" [ref=e73] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=vi&fg=1
+        - link "Điều khoản" [ref=e74] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=vi&fg=1
+        - button "Cài đặt" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: Cài đặt
